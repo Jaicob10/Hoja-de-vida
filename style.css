@@ -1,0 +1,39 @@
+.info-contenedor{
+    display: flex;
+    flex-direction: row;
+}
+.foto-contenedor{
+    text-align: center;
+  }
+  .foto-contenedor> img{
+    max-width: 20%;
+    height: auto;
+    border-radius: 50%;
+  }
+  .item{
+      display: flex;
+  }
+  .item-izq{
+      margin-right: 80px;
+  }
+  .item-izq > p{
+      color: blue;
+  }
+  hr{
+      margin-top: 0px;
+  }
+
+  @media screen and (max-width:760px){
+      .info-contenedor{
+          flex-direction: column-reverse;
+      }
+      .info-contenedor{
+          text-align: center;
+      }
+  }
+  .container{
+      padding: 40px;
+
+
+  }
+
